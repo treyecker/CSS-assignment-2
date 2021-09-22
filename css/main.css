@@ -1,14 +1,94 @@
 /* you will add css rules for element selectors and IDs */
 
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
 
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
     background: #000;
+    margin: 0rem;
 }
+
 img {
     max-width: 100%; /* DO NOT delete or change this line */
+}
+
+header, footer {
+  background: #333;
+}
+
+header {
+  color: #fff;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0rem;
+}
+
+nav ul li {
+  margin: 0rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+section {
+  max-width: 600px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  background: #fff;
+  color: #000;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.photo {
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+#cougar {
+  background: #FFD5AE;
+}
+
+#lion {
+  background: #FFBD82;
+}
+
+#tiger {
+  background: #B26219;
+  color: #fff;
 }
 
 /* ----- SUGGESTED COLORS -----
@@ -31,11 +111,13 @@ img {
 
 
 /* --- link pseudo classes --- */
+
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
 a {
     color: #379CB2;
+    text-decoration: none;
 }
 a:hover {
     color: #82E8FF;
