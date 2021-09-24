@@ -1,0 +1,119 @@
+/* you will add css rules for element selectors and IDs */
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+/* you may add to or change the body rule */
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #000;
+    margin: 0rem;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+header, footer {
+  background: #333;
+}
+
+header {
+  color: #fff;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0rem;
+}
+
+nav ul li {
+  margin: 0rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section {
+  max-width: 600px;
+}
+
+.text{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 2rem;
+}
+
+.photo {
+  margin: 4rem 2rem;
+}
+
+#cougar {
+  background: #FFD5AE;
+  color: #000;
+}
+
+#lion {
+  background: #FFBD82;
+  color: #000;
+}
+
+#tiger {
+  background: #B26219;
+  color: #fff;
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+    text-decoration: none;
+}
+a:hover {
+    color: #82E8FF;
+}
